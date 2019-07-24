@@ -1,3 +1,11 @@
+<?php
+
+// session_start();
+// if(empty($_SESSION['username_akun'])){
+//     header("location: login.php");
+// }
+
+?>
 <!doctype html>
 <!--
   Material Design Lite
@@ -76,7 +84,7 @@
                 </li>
                 <li class="list__item--border-top"></li>
                 
-                <a href="login.html">
+                <a href="login.php">
                     <li class="mdl-menu__item mdl-list__item">
                         <span class="mdl-list__item-primary-content">
                             <i class="material-icons mdl-list__item-icon text-color--secondary">exit_to_app</i>

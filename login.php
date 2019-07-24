@@ -1,3 +1,12 @@
+<?php
+
+session_start();
+if(!empty($_SESSION["username_akun"])){
+    header("location: index.php");
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,8 +51,9 @@
 <div class="mdl-layout mdl-js-layout color--gray is-small-screen login">
     <main class="mdl-layout__content">
         <div class="mdl-card mdl-card__login mdl-shadow--2dp">
-                <div class="mdl-card__supporting-text color--dark-gray">
-                    <div class="mdl-grid">
+            <div class="mdl-card__supporting-text color--dark-gray">
+                <div class="mdl-grid">
+                    <form action="login-process.php" method="POST">
                         <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-phone">
                             <span class="mdl-card__title-text text-color--smooth-gray">
                                 <center> <h3>SIPPL</h3> </center>
@@ -54,15 +64,16 @@
                             <span class="login-secondary-text text-color--smoke">Enter fields to sign in to SIPPL</span>
                         </div>
 
-                            <select>
-                                <option class="mdl-menu__item">Mahasiswa</option>
-                                <option class="mdl-menu__item">Akademik Program Studi</option>
-                                <option class="mdl-menu__item">Ketua Program Studi</option>
-                                <option class="mdl-menu__item">Ketua Jurusan</option>
-                                <option class="mdl-menu__item">Mitra</option>
-                            </select>
+                        <!-- <select name="level-select">
+                            <option value="1" class="mdl-menu__item">Akademik Program Studi</option>
+                            <option value="2" class="mdl-menu__item">Dosen</option>
+                            <option value="3" class="mdl-menu__item">Ketua Program Studi</option>
+                            <option value="4" class="mdl-menu__item">Ketua Jurusan</option>
+                            <option value="5" class="mdl-menu__item">Mahasiswa</option>
+                            <option value="9" class="mdl-menu__item">Mitra</option>
+                        </select> -->
                         <!-- <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select full-size">
-                           <input class="mdl-textfield__input" type="text" id="Hak_akses" readonly tabIndex="-1"/>
+                            <input class="mdl-textfield__input" type="text" id="Hak_akses" readonly tabIndex="-1"/>
 
                                         <label class="mdl-textfield__label" for="Hak_akses">Pilih Hak Akses</label>
 
@@ -82,27 +93,23 @@
 
                         <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-phone">
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label full-size">
-                                <input class="mdl-textfield__input" type="text" id="e-mail">
+                                <input class="mdl-textfield__input" type="text" id="e-mail" name="input-username">
                                 <label class="mdl-textfield__label" for="e-mail">Username</label>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label full-size">
-                                <input class="mdl-textfield__input" type="password" id="password">
+                                <input class="mdl-textfield__input" type="password" id="password" name="input-password">
                                 <label class="mdl-textfield__label" for="password">Password</label>
                             </div>
-                            
                         </div>
                         <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-phone submit-cell">
-                            
                             <div class="mdl-layout-spacer"></div>
-                            
-                                <buttons class="mdl-button mdl-js-button mdl-button--raised color--light-blue">
-                                    SIGN IN
-                                </buttons>
+                                <input type="submit" value="SIGN IN" class="mdl-button mdl-js-button mdl-button--raised color--light-blue">
                             </a>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
+        </div>
     </main>
 </div>
 
