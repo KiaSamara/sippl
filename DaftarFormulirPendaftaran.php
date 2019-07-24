@@ -22,7 +22,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SIPPL</title>
+    <title>Material Dashboard Lite</title>
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
@@ -54,14 +54,12 @@
 
 </head>
 <body>
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header is-small-screen">
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
     <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
             <div class="mdl-layout-spacer"></div>
-            
            
-           
-            <div class="avatar-dropdown" id="icon">
+           <div class="avatar-dropdown" id="icon">
                 <span>155150400111089</span>
                 <img src="images/Icon_header.png">
             </div>
@@ -87,10 +85,11 @@
                 </a>
             </ul>
 
+
         </div>
     </header>
 
-    <div class="mdl-layout__drawer">
+   <div class="mdl-layout__drawer">
         <header>SIPPL</header>
         <div class="scroll__wrapper" id="scroll__wrapper">
             <div class="scroller" id="scroller">
@@ -105,11 +104,11 @@
                             <i class="material-icons" role="description">description</i>
                             Ketersediaan Mitra
                         </a>
-                        <a class="mdl-navigation__link" href="DaftarKetersediaanDosen.php">
+                        <a class="mdl-navigation__link" href="DaftarKetersediaanDosenPembimbing.php">
                             <i class="material-icons" role="description">description</i>
                             Ketersediaan Dosen 
                         </a>
-                        <a class="mdl-navigation__link" href="FormulirPendaftaran.php">
+                        <a class="mdl-navigation__link" href="DaftarFormulirPendaftaran.php">
                             <i class="material-icons" role="description">description</i>
                             Formulir Pendaftaran
                         </a>
@@ -125,40 +124,77 @@
         </div>
     </div>
 
-    <main class="mdl-layout__content">
-
-        <div class="mdl-grid mdl-grid--no-spacing dashboard">
-
-            <div class="mdl-grid mdl-cell mdl-cell--9-col-desktop mdl-cell--12-col-tablet mdl-cell--4-col-phone mdl-cell--top">
-
-                
-                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--12-col-tablet mdl-cell--4-col-phone">
-                    <div class="mdl-card mdl-shadow--2dp">
+   
+        <main class="mdl-layout__content mdl-color--grey-100">
+            <div class="mdl-cell mdl-cell--11-col-desktop mdl-cell--11-col-tablet mdl-cell--4-col-phone">
+                <div class="mdl-card mdl-shadow--2dp">
                     <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Selamat datang</h2>
+                        <h2 style="text-align: center;" class="mdl-card__title-text">Daftar Formulir Pendaftaran Mahasiswa PPL</h2>
                     </div>
-                    <div class="mdl-card__supporting-text">
-                        <span class="text-color--gray">Description</span>
-                        <p>
-                           SIPPL adalah sistem informasi manajemen pendidikan praktik pengalaman lapangan dengan platform website yang memudahkan pengguna untuk mengelola data terkait PPL. Fokus sistematika alur saat ini adalah pada proses (Pendaftaran)
-                        </p>
-                      
-                       
-                    </div>
+                    
+                    <table class="mdl-data-table mdl-data-table--selectable mdl-shadow--2dp projects-table">
+                        <thead>
+                        <tr>
+                            <th style="width: 10%" class="mdl-data-table__cell--non-numeric">KELOMPOK</th>
+                            <th style="width: 40%" class="mdl-data-table__cell--non-numeric">NAMA MAHASISWA</th>
+                            <th style="width: 25%" class="mdl-data-table__cell--non-numeric">DOSEN PEMBIMBING</th>
+                            <th style="width: 25%" class="mdl-data-table__cell--non-numeric">MITRA</th>
+                            
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td rowspan="4"class="mdl-data-table__cell--non-numeric">1</td>
+                            <td class="mdl-data-table__cell--non-numeric">Azkia Samara Devi</td>
+                            <td rowspan="4"class="mdl-data-table__cell--non-numeric">Retno Indah R</td>
+                            <td rowspan="4"class="mdl-data-table__cell--non-numeric">SMA Negeri 1</td>
+
+                               
+                        </tr>
+                        <tr>
+                            <td class="mdl-data-table__cell--non-numeric">Juan Estrealla</td>
+                                
+                        </tr>
+                        <tr class="is-selected">
+                            <td class="mdl-data-table__cell--non-numeric">Annisa Nurfitriani</td>
+                               
+                        </tr>
+                        <tr>
+                            <td class="mdl-data-table__cell--non-numeric">Nathania H</td>
+                            
+                        </tr>
+                        <tr>
+                            <td class="mdl-data-table__cell--non-numeric">2</td>
+                            <td class="mdl-data-table__cell--non-numeric">Erza</td>
+                            <td class="mdl-data-table__cell--non-numeric">Aditya Rachmadi</td>
+                            <td class="mdl-data-table__cell--non-numeric">SMK Negeri 10</td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td rowspan="2"class="mdl-data-table__cell--non-numeric">3</td>
+                            <td class="mdl-data-table__cell--non-numeric">Sinta</td>
+                            <td rowspan="2"class="mdl-data-table__cell--non-numeric">Hanifah</td>
+                            <td rowspan="2"class="mdl-data-table__cell--non-numeric">SMK Negeri 8</td>
+                            
+                        </tr>
+                        <tr>
+                            <td class="mdl-data-table__cell--non-numeric">Fadilla</td>
+                            
+                        </tr>
+                        
+
+                        </tbody>
+                    </table>    
+
+
                 </div>
-                </div>
+            </div>                    
 
 
-            </div>
-
-            <div class="mdl-grid mdl-cell mdl-cell--3-col-desktop mdl-cell--12-col-tablet mdl-cell--4-col-phone mdl-cell--top">
-                
-
-            </div>
-        </div>
-
+        </main>
+        
     </main>
-
 </div>
 
 <!-- inject:js -->
@@ -179,5 +215,7 @@
 <script src="js/widgets/todo/todo.min.js"></script>
 <!-- endinject -->
 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBW0td9v69m95iy5Q2YiMebpIO7ztCnuPU&language=en&callback=initMap" async defer></script>
 </body>
 </html>
+

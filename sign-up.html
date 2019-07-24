@@ -1,3 +1,18 @@
+ <a href="
+                                <?php
+                                    if($level_pengguna==5 ){
+                                        echo 'index.php';    
+                                    }else if($level_pengguna==1 || $level_pengguna==2 || $level_pengguna==3 || $level_pengguna== 4){
+                                        echo 'indexcivitas.php'
+                                    }else if($level_pengguna==9){
+                                        echo 'indexmitra.php'
+                                    } 
+                                 ?>
+                            ">
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
