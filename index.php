@@ -22,7 +22,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Material Dashboard Lite</title>
+    <title>SIPPL</title>
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
@@ -54,12 +54,13 @@
 
 </head>
 <body>
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header is-small-screen">
     <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
             <div class="mdl-layout-spacer"></div>
-           
-           <div class="avatar-dropdown" id="icon">
+          
+                  
+            <div class="avatar-dropdown" id="icon">
                 <span>155150400111089</span>
                 <img src="images/Icon_header.png">
             </div>
@@ -85,7 +86,6 @@
                 </a>
             </ul>
 
-
         </div>
     </header>
 
@@ -95,16 +95,16 @@
             <div class="scroller" id="scroller">
                 <div class="scroll__container" id="scroll__container">
                     <nav class="mdl-navigation">
-                        <a class="mdl-navigation__link" href="index.html">
+                        <a class="mdl-navigation__link mdl-navigation__link--current" href="index.html">
                             <i class="material-icons" role="presentation">dashboard</i>
                             Dashboard
                         </a>
                        
-                        <a class="mdl-navigation__link mdl-navigation__link--current" href="FormulirPendaftaran.html">
+                        <a class="mdl-navigation__link" href="FormulirPendaftaran.html">
                             <i class="material-icons" role="presentation">Formulir Pendaftaran</i>
                             Formulir Pendaftaran
                         </a>
-
+                      
                     </nav>
                 </div>
             </div>
@@ -112,86 +112,40 @@
         </div>
     </div>
 
-   
- <main class="mdl-layout__content mdl-color--grey-100">
-            <div class="mdl-card mdl-shadow--2dp employer-form" action="#">
-                <div class="mdl-card__title">
-                    <h2>Form Pendaftaran</h2>
-                    <div class="mdl-card__subtitle">Please complete the form</div>
+    <main class="mdl-layout__content">
+
+        <div class="mdl-grid mdl-grid--no-spacing dashboard">
+
+            <div class="mdl-grid mdl-cell mdl-cell--9-col-desktop mdl-cell--12-col-tablet mdl-cell--4-col-phone mdl-cell--top">
+
+                
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--12-col-tablet mdl-cell--4-col-phone">
+                    <div class="mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Selamat datang</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <span class="text-color--gray">Description</span>
+                        <p>
+                           SIPPL adalah sistem informasi manajemen pendidikan praktik pengalaman lapangan dengan platform website yang memudahkan pengguna untuk mengelola data terkait PPL. Fokus sistematika alur saat ini adalah pada proses (Pendaftaran)
+                        </p>
+                      
+                       
+                    </div>
+                </div>
                 </div>
 
-                <div class="mdl-card__supporting-text">
-                    <form action="#" class="form">
-                        <div class="form__article">
-                            <h3>Anggota PPL</h3>
 
-                           <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp projects-table">
-                        <thead>
-                        <tr>
-                            <th class="mdl-data-table__cell--non-numeric">NIM</th>
-                            <th class="mdl-data-table__cell--non-numeric">NAMA</th>
-                            <th class="mdl-data-table__cell--non-numeric">SKS</th>
-                            <th class="mdl-data-table__cell--non-numeric">IPK</th>
-                            
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td class="mdl-data-table__cell--non-numeric">155150400111089</td>
-                            <td class="mdl-data-table__cell--non-numeric">Azkia Samara D</td>
-                            <td class="mdl-data-table__cell--non-numeric">140</td>
-                            <td class="mdl-data-table__cell--non-numeric">32.0</td>
-                            <td class="mdl-data-table__cell--non-numeric">
-                               
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="mdl-data-table__cell--non-numeric">155150400111222</td>
-                            <td class="mdl-data-table__cell--non-numeric">Juan Estrealla</td>
-                            <td class="mdl-data-table__cell--non-numeric">131</td>
-                            <td class="mdl-data-table__cell--non-numeric">33.5</td>
-                            <td class="mdl-data-table__cell--non-numeric">
-                                
-                            </td>
-                        </tr>
-                        <tr class="is-selected">
-                            <td class="mdl-data-table__cell--non-numeric">155150400111999</td>
-                            <td class="mdl-data-table__cell--non-numeric">Annisa Nurfitriani</td>
-                            <td class="mdl-data-table__cell--non-numeric">128</td>
-                            <td class="mdl-data-table__cell--non-numeric">35.0</td>
-                            <td class="mdl-data-table__cell--non-numeric">
-                               
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="mdl-data-table__cell--non-numeric">15515040711109!!!</td>
-                            <td class="mdl-data-table__cell--non-numeric">Nathania H</td>
-                            <td class="mdl-data-table__cell--non-numeric">130</td>
-                            <td class="mdl-data-table__cell--non-numeric">34.0</td>
-                            <td class="mdl-data-table__cell--non-numeric">
-                              
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-
-                        <div class="form__article">
-                            <h3>Pilih Dosen Pembimbing</h3>
-
-
-                        <div class="form__article employer-form__contacts">
-                            <h3>Pilih Mitra</h3>
-
-                            <button id="submit_button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-                            Submit
-                            </button>
-                        </div>
-                    </form>
-                </div>
             </div>
-        </main>
-        
+
+            <div class="mdl-grid mdl-cell mdl-cell--3-col-desktop mdl-cell--12-col-tablet mdl-cell--4-col-phone mdl-cell--top">
+                
+
+            </div>
+        </div>
+
     </main>
+
 </div>
 
 <!-- inject:js -->
@@ -212,7 +166,5 @@
 <script src="js/widgets/todo/todo.min.js"></script>
 <!-- endinject -->
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBW0td9v69m95iy5Q2YiMebpIO7ztCnuPU&language=en&callback=initMap" async defer></script>
 </body>
 </html>
-

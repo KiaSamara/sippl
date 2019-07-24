@@ -123,12 +123,12 @@
                         <div class="form__article">
                             <h3>Pilih Dosen Pembimbing PPL</h3>
 
-                            <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp projects-table">
+                            <table class="mdl-data-table mdl-data-table--selectable mdl-shadow--2dp projects-table">
                         <thead>
                         <tr>
-                            <th class="mdl-data-table__cell--non-numeric">DOSEN PEMBIMBING</th>
-                            <th class="mdl-data-table__cell--non-numeric">KUOTA</th>
-                            <th class="mdl-data-table__cell--non-numeric">TAMBAH</th>
+                            <th  style="width: 60%" class="mdl-data-table__cell--non-numeric">DOSEN PEMBIMBING</th>
+                            <th  style="width: 20%"class="mdl-data-table__cell--non-numeric">KUOTA</th>
+                            <center><th style="width: 20%" class="mdl-data-table__cell--non-numeric">TAMBAH</th></center>
                             
                         </tr>
                         </thead>
@@ -136,15 +136,22 @@
                         <tr>
                             <td class="mdl-data-table__cell--non-numeric">Retno Indah R</td>
                             <td class="mdl-data-table__cell--non-numeric">0/5</td>
-                            <td class="mdl-data-table__cell--non-numeric">+</td>
+                            <td class="mdl-data-table__cell--non-numeric">
+                                <button id="submit_button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">+
+                                </button>
+                            </td>
+
                             <td class="mdl-data-table__cell--non-numeric">
                                
                             </td>
                         </tr>
-                        <tr>
+                        <tr >
                             <td class="mdl-data-table__cell--non-numeric">Aditya Rachmadi</td>
                             <td class="mdl-data-table__cell--non-numeric">3/5</td>
-                            <td class="mdl-data-table__cell--non-numeric">+</td>
+                            <td class="mdl-data-table__cell--non-numeric">
+                                <button id="submit_button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">+
+                                </button>
+                            </td>
                             <td class="mdl-data-table__cell--non-numeric">
                                 
                             </td>
@@ -152,7 +159,10 @@
                         <tr class="is-selected">
                             <td class="mdl-data-table__cell--non-numeric">Admadja</td>
                             <td class="mdl-data-table__cell--non-numeric">1/5/</td>
-                            <td class="mdl-data-table__cell--non-numeric">+</td>
+                            <td class="mdl-data-table__cell--non-numeric">
+                                <button id="submit_button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">+
+                                </button>
+                            </td>
                             <td class="mdl-data-table__cell--non-numeric">
                                
                             </td>
@@ -160,16 +170,22 @@
                         <tr>
                             <td class="mdl-data-table__cell--non-numeric">Hanifah</td>
                             <td class="mdl-data-table__cell--non-numeric">1/5</td>
-                            <td class="mdl-data-table__cell--non-numeric">+</td>
+                            <td class="mdl-data-table__cell--non-numeric">
+                                <button id="submit_button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">+
+                                </button>
+                            </td>
                             <td class="mdl-data-table__cell--non-numeric">
                               
                             </td>
                         </tr>
                         </tbody>
                     </table>
-                            <button id="submit_button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-                                Submit
-                            </button>
+                        <br>    
+                            <div align="right">    
+                                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect button--colored-red">
+                                    Submit
+                                </button> 
+                            </div> 
                         </div>
                     </form>
                 </div>

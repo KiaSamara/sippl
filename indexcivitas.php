@@ -119,58 +119,24 @@
 
             <div class="mdl-grid mdl-cell mdl-cell--9-col-desktop mdl-cell--12-col-tablet mdl-cell--4-col-phone mdl-cell--top">
 
-                <!-- Table-->
-                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--12-col-tablet mdl-cell--4-col-phone ">
-                    <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp projects-table">
-                        <thead>
-                        <tr>
-                            <th class="mdl-data-table__cell--non-numeric">NIM</th>
-                            <th class="mdl-data-table__cell--non-numeric">NAMA</th>
-                            <th class="mdl-data-table__cell--non-numeric">SKS</th>
-                            <th class="mdl-data-table__cell--non-numeric">IPK</th>
-                            
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td class="mdl-data-table__cell--non-numeric">155150400111089</td>
-                            <td class="mdl-data-table__cell--non-numeric">Azkia Samara D</td>
-                            <td class="mdl-data-table__cell--non-numeric">140</td>
-                            <td class="mdl-data-table__cell--non-numeric">32.0</td>
-                            <td class="mdl-data-table__cell--non-numeric">
-                               
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="mdl-data-table__cell--non-numeric">155150400111222</td>
-                            <td class="mdl-data-table__cell--non-numeric">Juan Estrealla</td>
-                            <td class="mdl-data-table__cell--non-numeric">131</td>
-                            <td class="mdl-data-table__cell--non-numeric">33.5</td>
-                            <td class="mdl-data-table__cell--non-numeric">
-                                
-                            </td>
-                        </tr>
-                        <tr class="is-selected">
-                            <td class="mdl-data-table__cell--non-numeric">155150400111999</td>
-                            <td class="mdl-data-table__cell--non-numeric">Annisa Nurfitriani</td>
-                            <td class="mdl-data-table__cell--non-numeric">128</td>
-                            <td class="mdl-data-table__cell--non-numeric">35.0</td>
-                            <td class="mdl-data-table__cell--non-numeric">
-                               
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="mdl-data-table__cell--non-numeric">15515040711109!!!</td>
-                            <td class="mdl-data-table__cell--non-numeric">Nathania H</td>
-                            <td class="mdl-data-table__cell--non-numeric">130</td>
-                            <td class="mdl-data-table__cell--non-numeric">34.0</td>
-                            <td class="mdl-data-table__cell--non-numeric">
-                              
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
+                
+                <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--12-col-tablet mdl-cell--4-col-phone">
+                    <div class="mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Selamat datang</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <span class="text-color--gray">Description</span>
+                        <p>
+                           SIPPL adalah sistem informasi manajemen pendidikan praktik pengalaman lapangan dengan platform website yang memudahkan pengguna untuk mengelola data terkait PPL. Fokus sistematika alur saat ini adalah pada proses (Pendaftaran)
+                        </p>
+                      
+                       
+                    </div>
                 </div>
+                </div>
+
+
             </div>
 
             <div class="mdl-grid mdl-cell mdl-cell--3-col-desktop mdl-cell--12-col-tablet mdl-cell--4-col-phone mdl-cell--top">

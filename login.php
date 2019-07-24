@@ -45,19 +45,48 @@
                 <div class="mdl-card__supporting-text color--dark-gray">
                     <div class="mdl-grid">
                         <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-phone">
-                            <span class="mdl-card__title-text text-color--smooth-gray">SIPPL</span>
+                            <span class="mdl-card__title-text text-color--smooth-gray">
+                                <center> <h3>SIPPL</h3> </center>
+                            </span>
                         </div>
                         <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-phone">
                             <span class="login-name text-color--white">Sign in</span>
                             <span class="login-secondary-text text-color--smoke">Enter fields to sign in to SIPPL</span>
                         </div>
+
+                            <select>
+                                <option class="mdl-menu__item">Mahasiswa</option>
+                                <option class="mdl-menu__item">Akademik Program Studi</option>
+                                <option class="mdl-menu__item">Ketua Program Studi</option>
+                                <option class="mdl-menu__item">Ketua Jurusan</option>
+                                <option class="mdl-menu__item">Mitra</option>
+                            </select>
+                        <!-- <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select full-size">
+                           <input class="mdl-textfield__input" type="text" id="Hak_akses" readonly tabIndex="-1"/>
+
+                                        <label class="mdl-textfield__label" for="Hak_akses">Pilih Hak Akses</label>
+
+                                        <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu dark_dropdown" for="Hak_akses">
+                                            <li class="mdl-menu__item">Mahasiswa</li>
+                                            <li class="mdl-menu__item">Akademik Program Studi</li>
+                                            <li class="mdl-menu__item">Ketua Program Studi</li>
+                                            <li class="mdl-menu__item">Ketua Jurusan</li>
+                                            <li class="mdl-menu__item">Mitra</li>
+                                        </ul>    
+
+
+                            <label for="location">
+                                <i class="mdl-icon-toggle__label material-icons">arrow_drop_down</i>
+                            </label>
+                        </div> -->
+
                         <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-phone">
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label full-size">
                                 <input class="mdl-textfield__input" type="text" id="e-mail">
-                                <label class="mdl-textfield__label" for="e-mail">NIM/NIK</label>
+                                <label class="mdl-textfield__label" for="e-mail">Username</label>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label full-size">
-                                <input class="mdl-textfield__input" type="text" id="password">
+                                <input class="mdl-textfield__input" type="password" id="password">
                                 <label class="mdl-textfield__label" for="password">Password</label>
                             </div>
                             
@@ -65,7 +94,7 @@
                         <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-phone submit-cell">
                             
                             <div class="mdl-layout-spacer"></div>
-                            <a href="index.html">
+                            
                                 <buttons class="mdl-button mdl-js-button mdl-button--raised color--light-blue">
                                     SIGN IN
                                 </buttons>
